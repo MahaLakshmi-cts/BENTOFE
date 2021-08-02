@@ -10,9 +10,6 @@ describe('NBCNEWS DIGITAL', () => {
         await pause.short();
         Breakpoints.Desktop();
         await pause.short();
-        const Videopackage = await $('//div[@class="video-package__grid"]');
-        Videopackage.scrollIntoView();
-        await pause.short();
     });
 
     it('share', async () => {
