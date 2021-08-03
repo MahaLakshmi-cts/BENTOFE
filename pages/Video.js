@@ -1,8 +1,13 @@
 class Video {
 
+	videopackage() {
+		const videopackage = $('//div[@class="video-package__grid"]');
+		return videopackage();
+    }
+
 	video() {
 
-		const video = $('#content > div:nth-child(6) > div > div.fullWidth.layout-grid-container.layout-index-1 > div > section.pkg.videoPkg.gutter-collapse-m.video-package > div > div.video-package__columns.df.flex-column > div.video-package__wrapper-outer > div.video-package__video-wrapper > div > div.videoSlate > a')
+		const video = $('//div[@class="videoSlate"]')
 		return video; 
 	}
 	
